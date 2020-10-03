@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="DELETE">
+        <access>public</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>Use public web service stock API to retrievestock information</description>
+        <name>StockQuote</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://cloud.iexapis.com/v1/stock/${symbol}/quote</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 14:07:47</sys_created_on>
+        <sys_id>eb80766adbe71010d5855fc74b96197f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>StockQuote</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_rest_message_eb80766adbe71010d5855fc74b96197f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-02 14:26:02</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>true</use_mutual_auth>
+    </sys_rest_message>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>985f591bdbf8d414c6e711f8489619ba</instance_id>
+        <instance_name>dev104595</instance_name>
+        <name>sys_rest_message_eb80766adbe71010d5855fc74b96197f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>public</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description>Use public web service stock API to retrievestock information</description><name>StockQuote</name><oauth2_profile/><protocol_name/><rest_endpoint>https://cloud.iexapis.com/v1/stock/${symbol}/quote</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-02 14:07:47</sys_created_on><sys_id>eb80766adbe71010d5855fc74b96197f</sys_id><sys_mod_count>4</sys_mod_count><sys_name>StockQuote</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_rest_message_eb80766adbe71010d5855fc74b96197f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-02 14:26:02</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>true</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+        <payload_hash>-2111910222</payload_hash>
+        <record_name>StockQuote</record_name>
+        <reverted_from/>
+        <source>7973c8a6db231010d5855fc74b9619be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 14:26:02</sys_created_on>
+        <sys_id>ab35be2edbe71010d5855fc74b96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e9b49f380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-02 14:26:02</sys_updated_on>
+        <type>REST Message</type>
+        <update_guid>e335be2ec4e71010c29c3ed2427e326d</update_guid>
+        <update_guid_history>e335be2ec4e71010c29c3ed2427e326d:-2111910222,6674fa2e8be71010f395639957bf6e05:-126330140,e0643aeac0e71010afc243df6c428dd2:250307667,a8d33aeae5e710107039235f2f9a234a:-1878700926,8c11faaaa6e710102055d8f7efffa20c:1899245332</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 14:26:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message">sys_rest_message</sys_db_object>
+        <sys_id>2bd87fa34275434c9d12b50a31d38410</sys_id>
+        <sys_metadata>eb80766adbe71010d5855fc74b96197f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StockQuote</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_rest_message_eb80766adbe71010d5855fc74b96197f</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_eb80766adbe71010d5855fc74b96197f">ab35be2edbe71010d5855fc74b96196d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-02 14:26:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

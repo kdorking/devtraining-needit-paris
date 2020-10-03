@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>StockQuote [ Default GET ]</qualified_name>
+        <rest_endpoint>https://cloud.iexapis.com/v1/stock/${symbol}/quote</rest_endpoint>
+        <rest_message display_value="StockQuote">eb80766adbe71010d5855fc74b96197f</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 14:07:47</sys_created_on>
+        <sys_id>4411faaadbe71010d5855fc74b96190a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_rest_message_fn_4411faaadbe71010d5855fc74b96190a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-02 14:25:27</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>985f591bdbf8d414c6e711f8489619ba</instance_id>
+        <instance_name>dev104595</instance_name>
+        <name>sys_rest_message_fn_4411faaadbe71010d5855fc74b96190a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>StockQuote [ Default GET ]</qualified_name><rest_endpoint>https://cloud.iexapis.com/v1/stock/${symbol}/quote</rest_endpoint><rest_message display_value="StockQuote">eb80766adbe71010d5855fc74b96197f</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-02 14:07:47</sys_created_on><sys_id>4411faaadbe71010d5855fc74b96190a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_rest_message_fn_4411faaadbe71010d5855fc74b96190a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-02 14:25:27</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>1085552822</payload_hash>
+        <record_name>Default GET</record_name>
+        <reverted_from/>
+        <source>7973c8a6db231010d5855fc74b9619be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 14:25:28</sys_created_on>
+        <sys_id>c315fa2edbe71010d5855fc74b961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174e9b417bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-02 14:25:28</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>0f15fa2e96e710109d34461fff6f1508</update_guid>
+        <update_guid_history>0f15fa2e96e710109d34461fff6f1508:1085552822,d3f33aeabde71010b3c11c7d4b754b7d:-1871568861,c811faaadae710107cf7b21d0c8eff0b:253262160</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 14:26:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>65f793cdec5a4c9e962971b014b2b884</sys_id>
+        <sys_metadata>4411faaadbe71010d5855fc74b96190a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_4411faaadbe71010d5855fc74b96190a</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_4411faaadbe71010d5855fc74b96190a">c315fa2edbe71010d5855fc74b961909</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-02 14:26:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
